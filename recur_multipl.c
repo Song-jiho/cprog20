@@ -14,10 +14,6 @@ int multiple(int n){
 
 
 int main(){
-	int a;
-	printf("몇번째부터 입력하시겠습니까?: ");
-	scanf("%d", &a);
-
-	multiple(a);
+	multiple(1);
 	return 0;
 }

@@ -11,8 +11,6 @@ int dec_item(int a){
 	return num;
 }
 
-
-
 int inc_item(int a){
 	static int i = 0;
 	num += a;
@@ -22,18 +20,14 @@ int inc_item(int a){
 	return num;
 }
 
-
-
 void print_item(){
 	 printf("재고가 %d개 남았습니다.\n", num);
 }
-
 
 void print_stat(){
 	printf("재고는  %d개  입니다\n", num);
 
 }
-
 
 int main(){
 	while(1){

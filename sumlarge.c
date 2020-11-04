@@ -3,8 +3,8 @@
 
 int main(){
 	struct timeval t_start, t_end;
-	//long sum, i;
-	register long sum, i;
+	long sum, i;
+	//register long sum, i;
 	time_t start, end;
 	sum = 0;
 
